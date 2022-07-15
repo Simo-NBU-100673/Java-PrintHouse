@@ -1,0 +1,285 @@
+
+Client{name='Novedes', portfolio=150000
+demandsList=[ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}, ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}],
+invoices=[]}
+<|===============================================Last modified:(2022/06/19 02:13:19)===============================================|> 
+
+Client{name='Novedes', portfolio=145410.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}]}
+<|===============================================Last modified:(2022/06/19 02:13:19)===============================================|> 
+
+Client{name='Bebelan', portfolio=145176.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 02:13:19)===============================================|> 
+
+PrintHouse{ Name='Sofarma, BaseSalary=1200, paperInStock=16000, baseSalary=1200, bonusPercent=5, minGrossIncomeForBonus=1600, grossIncome=9414.00, grossExpenses=7320.0
+Hired workers: [Worker{name='Simo', position=MANAGER}]
+Printers :
+[]
+Queue:
+[]
+Invoices:
+[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 02:13:19)===============================================|> 
+
+PrintHouse{ Name='Sofarma, BaseSalary=1200, paperInStock=16000, baseSalary=1200, bonusPercent=5, minGrossIncomeForBonus=1600, grossIncome=9414.00, grossExpenses=7320.0
+Hired workers: [Worker{name='Simo', position=MANAGER}]
+Printers :
+[Printer{maxPaper=1000, speedOfPrinting=1, current_id=1, paperInPrinter: 50, loadedInvoices: false}, Printer{maxPaper=1000, speedOfPrinting=2, current_id=2, paperInPrinter: 250, loadedInvoices: true}, Printer{maxPaper=1000, speedOfPrinting=5, current_id=3, paperInPrinter: 350, loadedInvoices: true}]
+Queue:
+[]
+Invoices:
+[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = PRINTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 02:13:20)===============================================|> 
+
+Client{name='Novedes', portfolio=145410.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = PRINTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}]}
+<|===============================================Last modified:(2022/06/19 02:13:20)===============================================|> 
+
+Client{name='Novedes', portfolio=150000
+demandsList=[ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}, ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}],
+invoices=[]}
+<|===============================================Last modified:(2022/06/19 02:22:35)===============================================|> 
+
+Client{name='Novedes', portfolio=145410.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}]}
+<|===============================================Last modified:(2022/06/19 02:22:36)===============================================|> 
+
+Client{name='Bebelan', portfolio=145176.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 02:22:36)===============================================|> 
+
+PrintHouse{ Name='Sofarma, BaseSalary=1200, paperInStock=16000, baseSalary=1200, bonusPercent=5, minGrossIncomeForBonus=1600, grossIncome=9414.00, grossExpenses=6060.0
+Hired workers: [Worker{name='Simo', position=MANAGER}]
+Printers :
+[]
+Queue:
+[]
+Invoices:
+[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 02:22:36)===============================================|> 
+
+PrintHouse{ Name='Sofarma, BaseSalary=1200, paperInStock=16000, baseSalary=1200, bonusPercent=5, minGrossIncomeForBonus=1600, grossIncome=9414.00, grossExpenses=6060.0
+Hired workers: [Worker{name='Simo', position=MANAGER}]
+Printers :
+[Printer{maxPaper=1000, speedOfPrinting=1, current_id=1, paperInPrinter: 50, loadedInvoices: false}, Printer{maxPaper=1000, speedOfPrinting=2, current_id=2, paperInPrinter: 250, loadedInvoices: true}, Printer{maxPaper=1000, speedOfPrinting=5, current_id=3, paperInPrinter: 350, loadedInvoices: true}]
+Queue:
+[]
+Invoices:
+[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = PRINTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 02:22:37)===============================================|> 
+
+Client{name='Novedes', portfolio=145410.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = PRINTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}]}
+<|===============================================Last modified:(2022/06/19 02:22:37)===============================================|> 
+
+Client{name='Novedes', portfolio=150000
+demandsList=[ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}, ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}],
+invoices=[]}
+<|===============================================Last modified:(2022/06/19 11:58:23)===============================================|> 
+
+Client{name='Novedes', portfolio=145410.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}]}
+<|===============================================Last modified:(2022/06/19 11:58:23)===============================================|> 
+
+Client{name='Bebelan', portfolio=145176.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 11:58:23)===============================================|> 
+
+PrintHouse{ Name='Sofarma, BaseSalary=1200, paperInStock=16000, baseSalary=1200, bonusPercent=5, minGrossIncomeForBonus=1600, grossIncome=9414.00, grossExpenses=6060.0
+Hired workers: [Worker{name='Simo', position=MANAGER}]
+Printers :
+[]
+Queue:
+[]
+Invoices:
+[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 11:58:23)===============================================|> 
+
+PrintHouse{ Name='Sofarma, BaseSalary=1200, paperInStock=16000, baseSalary=1200, bonusPercent=5, minGrossIncomeForBonus=1600, grossIncome=9414.00, grossExpenses=6060.0
+Hired workers: [Worker{name='Simo', position=MANAGER}]
+Printers :
+[Printer{maxPaper=1000, speedOfPrinting=1, current_id=1, paperInPrinter: 50, loadedInvoices: false}, Printer{maxPaper=1000, speedOfPrinting=2, current_id=2, paperInPrinter: 250, loadedInvoices: true}, Printer{maxPaper=1000, speedOfPrinting=5, current_id=3, paperInPrinter: 350, loadedInvoices: true}]
+Queue:
+[]
+Invoices:
+[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = PRINTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[3], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 7.20, markup = 1500%, state = ACCEPTED,
+ClientDemand{clientName = 'Bebelan', titleOfPublication = 'Pampersi', numberOfUnits = 670, paper = Paper{sizeOfPaper=A5, typeOfPaper=GLOSSY}}}}]}
+<|===============================================Last modified:(2022/06/19 11:58:24)===============================================|> 
+
+Client{name='Novedes', portfolio=145410.00
+demandsList=[],
+invoices=[
+
+Invoice{, id=[1], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 30.30, markup = 10000%, state = PRINTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Aspirin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}, 
+
+Invoice{, id=[2], state=PAID, printHouseName='Sofarma'
+publication=
+PrintHousePublication{PricePerUnit = 0.30, markup = 0%, state = ACCEPTED,
+ClientDemand{clientName = 'Novedes', titleOfPublication = 'Analgin', numberOfUnits = 150, paper = Paper{sizeOfPaper=A4, typeOfPaper=NORMAL}}}}]}
+<|===============================================Last modified:(2022/06/19 11:58:24)===============================================|> 
